@@ -34,6 +34,10 @@ void freeStringLine(t_stringLine *linie) {
 void freeLine(void *linie, t_cellType tip) {
 	if (tip == INT)
 		freeIntLine(linie);
+	else if (tip == FLOAT)
+		freeFloatLine(linie);
+	else if (tip == STRING)
+		freeStringLine(linie);
 }
 
 // dezaloca toate liniile din tabel
