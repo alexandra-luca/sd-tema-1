@@ -1,5 +1,3 @@
-/* LUCA Alexandra - 321CC */
-
 #ifndef __STRUCTURES__
 #define __STRUCTURES__
 
